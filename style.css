@@ -1,3 +1,11 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #000000
+}
+.form-row {
+    text-align: center;
+}
 #video-banner {
     width: 100%;
     height: 100%;
@@ -15,11 +23,24 @@
 }
 .product-description {
     display: inline-block;
-    text-align: center;
     background-color: #ebe4e485;
+    padding: 30px;
+    margin: 5px;
 }
 .product-description p {
     margin: 0 0 0 0;
+
+}
+#name {
+    color: #7915fc;
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: 5px;
+    line-height: 18px;
+}
+.pic-1 {
+    height: 200px;
+    width: 200px;
 }
 .price{
     font-size: 15px;
