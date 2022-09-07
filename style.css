@@ -71,6 +71,8 @@ body {
 }
 
 
+
+
 .content {
     display: flex;
     background-color: #000000;
@@ -98,10 +100,44 @@ body {
 #video-card span {
     font-weight: 500;
 }
-.card-body-2 {
-    display: inline-block!important;
-}
+
 #video-vga {
     margin-top: -15px;
     max-width: 500px;
+}
+
+
+
+
+
+#processor .content {
+    display: flex;
+    background-color: #000000;
+    height: 380px;
+    padding: 15px;
+    margin: 15px;
+}
+
+#processor h2 {
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 35px;
+    width: 40px;
+    max-width: 100%;
+    color: aliceblue;
+    padding: 0px 0px 10px 50px;
+    margin-left: -50px;
+    margin-top: 30px;
+    margin-bottom: 1.5rem!important;
+}
+#processor p {
+    width: 335px;
+    max-width: 100%;
+    font-size: 19px;
+    color: aliceblue;
+    margin-right: 70px;
+    margin-top: -15px;
+}
+#processor span {
+    font-weight: bold;
 }
