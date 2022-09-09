@@ -230,12 +230,15 @@ body {
 
 
 
-
+img {
+    max-width: 100%;
+    width: 100%;
+}
 #computer-case .content {
     background: none;
     display: flex;
     background-color: #000000;
-    height: 380px;
+    height: 550px;
     padding: 15px;
     margin: 15px;    
 }
@@ -247,8 +250,8 @@ body {
 #heavy .content {
     display: flex;
     background-color: #ffffff;
-    padding: 0px;
-    margin:  10px 150px 15px 25px;
+    padding: 10px 100px 0px 0px;
+    margin:  10px 10px 0px 30px;
 }
 .content h2 {
     font-weight: bolder;
@@ -269,6 +272,26 @@ body {
     margin-left: 70px;
     margin-top: -15px;
 }
+
+
+
+
+
+#partners .container {
+    margin-top: 90px;
+    margin-bottom: 130px;
+    padding: 50px 0px 0px 290px;
+}
+#partners h2 {
+    text-align: center;
+    line-height: 30px;
+    width: 390px;
+    max-width: 100%;
+    margin: 10px 0px 30px 150px;
+    font-size: 35px;
+}
+
+
 
 
 
