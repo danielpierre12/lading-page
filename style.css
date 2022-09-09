@@ -278,7 +278,8 @@ img {
 
 
 #partners .container {
-    margin-top: 90px;
+    display: block;
+    margin-top: 40px;
     margin-bottom: 130px;
     padding: 50px 0px 0px 290px;
 }
