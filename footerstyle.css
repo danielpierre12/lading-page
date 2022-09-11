@@ -1,13 +1,13 @@
 footer {
-  display:inline-block;
+  display:block;
   position:absolute;
   height: 100px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: ##000000f1;
 }
 footer .container-fluid {
   text-align: center;
-  position:static;
+  position:absolute;
   max-width: 100%;
 }
 .scale-logo {
@@ -29,14 +29,14 @@ footer .footer-box {
   height: 76px;
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 .attendance-razor {
   position: relative;
   font-size: x-small;
   font-weight: bolder;
-  color: rgb(0, 136, 255);
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  text-align: center;
+  color: rgba(0, 136, 255, 0.519);
+  padding: 100px 0px 10px 0px;
+  margin-top: -5px;
 }
