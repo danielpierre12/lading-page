@@ -1,359 +1,368 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-header {
-    position: fixed;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-    padding: 6px;
-    font-family: 'Rubik', sans-serif;
-    padding: 15px 0;
-    font-size: 15px;
-}
-.logo-topo {
-    max-width: 100px !important;
-    filter: brightness(1);
-    transition: all 0.3s;
-
-
-}
-
-.d-lg-inline {
-    display: inline !important;
-    color: rgb(236, 236, 236);
-    font-weight: bold
-}
-
-.bi {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    transition: all 0.3s;
-    color: white;
-    font-size: 20px;
-    margin: 0 0 1 20px;
-
-}
-
-.btn_orcar {
-    margin: 30px 0 0 0;
-    background-color: #7915fc;
-    color: #ffffff;
-    border-radius: 5px;
-    border: none;
-    padding: 15px 35px 15px 35px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: inline-block;
-    font-weight: 500;
-}
-
-.orcar {
-    color: #fff;
-    font-family: 'Rubik', sans-serif;
-    background-color: #7915fc;
-    text-align: center;
-}
-
 body {
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    color: #000000;
-    background-color: #ffffff;
-}
-
-#products .container {
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-#products .form-row {
-    text-align: center;
-}
-
-#video-banner {
-    width: 100%;
-    height: 100%;
-}
-
-.main-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 30px 0px 30px 30px;
-    box-sizing: border-box;
-    margin: center;
-}
-.titulo-desk {
-    text-align: center;
-}
-
-.product-description {
-    display: inline-block;
-    background-color: #ebe4e485;
-    padding: 22px;
-    margin: 5px;
-
-}
-
-.product-description p {
-    margin: 0 0 0 0;
-
-
-}
-
-#name {
-    color: #7915fc;
-    font-weight: 500;
-    font-size: 27px;
-    letter-spacing: 5px;
-    line-height: 18px;
-}
-
-.pic-1 {
-    height: 200px;
-    width: 200px;
-}
-
-.price {
-    font-size: 15px;
-    font-weight: bolder;
-    line-height: 16px;
-    padding: 10px
-}
-
-.gray-scale {
-    color: #999999;
-    font-size: 15px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-
-}
-
-.bar {
-    width: 100%;
-    height: 10px;
-    border: 1px solid #999999;
-    margin: 0px 0 0 0;
-}
-
-.filled-bar {
-    width: 50%;
-    height: 10px;
-    margin: -10px 0 5px 0;
-    background-color: #7915fc;
-
-}
-
-
-
-
-
-
-
-
-.content {
-    display: flex;
-    background-color: #000000;
-    height: 500px;
-    padding: 15px;
-    margin: 15px;
-}
-
-#video-card h2 {
-    font-size: 40px;
-    line-height: 40px;
-    width: 320px;
-    max-width: 100%;
-    color: aliceblue;
-    margin-left: 130px;
-    margin-top: 100px;
-    margin-bottom: 1.5rem !important;
-}
-
-#video-card p {
-    width: 320px;
-    max-width: 100%;
-    font-size: 19px;
-    color: aliceblue;
-    margin-left: 130px;
-}
-
-#video-card span {
-    font-weight: 500;
-}
-
-#video-vga {
-    margin-top: -15px;
-    max-width: 500px;
-}
-
-
-
-
-
-
-#processor .content {
-    display: flex;
-    background-color: #000000;
-    height: 380px;
-    padding: 15px;
-    margin: 15px;
-}
-
-#processor h2 {
-    font-weight: bolder;
-    font-size: 35px;
-    line-height: 35px;
-    width: 40px;
-    max-width: 100%;
-    color: aliceblue;
-    padding: 0px 0px 10px 50px;
-    margin-left: -50px;
-    margin-top: 30px;
-    margin-bottom: 1.5rem !important;
-}
-
-#processor p {
-    width: 335px;
-    max-width: 100%;
-    font-size: 19px;
-    color: aliceblue;
-    margin-left: 0px;
-    margin-right: 70px;
-    margin-top: -15px;
-}
-
-#processor span {
-    font-weight: bold;
-}
-
-
-
-
-
-#computer-case img {
-    max-width: 100%;
-    width: 100%;
-}
-#computer-case .content {
-    background: none;
-    display: flex;
-    background-color: #000000;
-    height: 550px;
-    padding: 15px;
-    margin: 15px;    
-}
-
-
-
-
-
-#heavy .content {
-    display: flex;
-    background-color: #ffffff;
-    padding: 10px 100px 0px 0px;
-    margin:  10px 10px -50px 30px;
-}
-.content h2 {
-    font-weight: bolder;
-    font-size: 35px;
-    line-height: 30px;
-    width: 400px;
-    color: #000000;
-    padding: 0px 0px 10px 50px;
-    margin-left: 20px;
-    margin-top: 110px;
-    margin-bottom: 1.5rem!important;
-}
-.content p {
-    width: 400px;
-    max-width: 100%;
-    font-size: 20px;
-    color: #000000;
-    margin-left: 70px;
-    margin-top: -15px;
-}
-
-
-
-
-
-#partners .container {
-    display: block;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 50px 0px 0px 290px;
-}
-#partners h2 {
-    text-align: center;
-    line-height: 30px;
-    width: 390px;
-    max-width: 100%;
-    margin: 10px 0px 30px 150px;
-    font-size: 35px;
-}
-
-
-
-
-
-
-
-#support {
-    margin: 0px 80px 0px 80px;
-    padding: 0px 0px 0px 0px;
-}
-#support .content {
-    display: flex;
-    background-color: #ffffff;
-    height: 530px;
-    padding: 15px;
-    margin: 15px;
-}
-#support .img-fluid {
-    width: 100% \9;
-}
-.img-fluid img {
-    height: auto;
-    margin: 0px 10px 60px 0px;
-}
-
-#support h2 {
-    font-weight: bolder;
-    font-size: 35px;
-
-    width: 400px;
-    color: #000000;
-    padding: 0px 0px 10px 0px;
-    margin: 25px 100px 0px 50px;
-}
-#subtitle {
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-}
-#support p {
-    width: 335px;
-    font-size: 19px;
-    color: #000000;
-    margin-left: 50px;
-    margin-right: 0px;
-    margin-top: -15px;
-}
-#support .mark-one {
-    font-weight: bolder;
-}
-#support .mark-two {
-    font-weight: bolder;
-}
-#support .mark-three {
-    font-weight: bolder;
-}
-
+    background: #000000f1;
+ }
+ 
+ header {
+     position: fixed;
+     height: 10vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     background-color: #000000f1;
+     padding: 6px;
+     font-family: 'Rubik', sans-serif;
+     padding: 15px 0;
+     font-size: 16px;
+ }
+ 
+ .logo-topo {
+     max-width: 100px !important;
+     filter: brightness(1);
+     transition: all 0.3s;
+ 
+ 
+ }
+ 
+ .d-lg-inline {
+     display: inline !important;
+     color: rgb(255, 255, 255);
+     font-weight: bold
+ }
+ 
+ .bi {
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     transition: all 0.3s;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     margin: 0 0 1 20px;
+ 
+ }
+ 
+ .btn_orcar {
+     margin: 30px 0 0 0;
+     background-color: #7915fc;
+     color: #000000f1;
+     border-radius: 5px;
+     border: none;
+     padding: 15px 35px 15px 35px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     display: inline-block;
+     font-weight: 500;
+ }
+ 
+ .orcar {
+     color: #000000f1;
+     font-family: 'Rubik', sans-serif;
+     background-color: #7915fc;
+     text-align: center;
+ }
+ 
+ body {
+     font-family: 'Rubik', sans-serif;
+     font-size: 15px;
+     color: #ffffff;
+ }
+ 
+ #products .container {
+     width: 100%;
+     padding-right: 10px;
+     padding-left: 10px;
+     margin-right: auto;
+     margin-left: auto;
+ 
+ }
+ 
+ #products .form-row {
+     text-align: center;
+ }
+ 
+ #video-banner {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .main-title {
+     text-align: center;
+     font-weight: bold;
+     font-size: 50px;
+     margin: 30px 0px 30px 30px;
+     box-sizing: border-box;
+     margin: center;
+ }
+ 
+ .titulo-desk {
+     text-align: center;
+ }
+ 
+ .product-description {
+     display: inline-block;
+     background-color:#ffffff;
+     ;
+     padding: 22px;
+     margin: 5px;
+ 
+     border: 2px rgb(115, 2, 115);
+ }
+ 
+ .product-description:hover{
+     box-shadow: 0 0 30px rgb(115, 2, 115), inset 0 0 15px rgb(115, 2, 115);
+     text-shadow: 0 0 30px rgb(115, 2, 115);
+ }
+ 
+ .product-description p {
+     margin: 0 0 0 0;
+     color: #000000f1;
+ 
+ }
+ 
+ #name {
+     color: #7915fc;
+     font-weight: 500;
+     font-size: 27px;
+     letter-spacing: 5px;
+     line-height: 18px;
+ }
+ 
+ .pic-1 {
+     height: 200px;
+     width: 200px;
+ }
+ 
+ .price {
+     font-size: 15px;
+     font-weight: bolder;
+     line-height: 16px;
+     padding: 10px
+ }
+ 
+ .gray-scale {
+     color: #000000f1;
+     font-size: 15px;
+     font-family: 'Rubik', sans-serif;
+     font-size: 14px;
+     line-height: 16px;
+ 
+ }
+ 
+ .bar {
+     width: 100%;
+     height: 10px;
+     border: 1px solid #000000f1;
+     margin: 0px 0 0 0;
+ }
+ 
+ .filled-bar {
+     width: 50%;
+     height: 10px;
+     margin: -10px 0 5px 0;
+     background-color: #7915fc;
+ 
+ }
+ 
+ 
+ .content {
+     display: flex;
+     background-color: #000000;
+     height: 500px;
+     padding: 15px;
+     margin: 15px;
+ }
+ 
+ #video-card h2 {
+     font-size: 40px;
+     line-height: 40px;
+     width: 320px;
+     max-width: 100%;
+     color: rgb(255, 255, 255);
+     margin-left: 130px;
+     margin-top: 100px;
+     margin-bottom: 1.5rem !important;
+ }
+ 
+ #video-card p {
+     width: 320px;
+     max-width: 100%;
+     font-size: 19px;
+     color: rgb(255, 255, 255);
+     margin-left: 130px;
+ }
+ 
+ #video-card span {
+     font-weight: 500;
+ }
+ 
+ #video-vga {
+     margin-top: -15px;
+     max-width: 500px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #processor .content {
+     display: flex;
+     background-color: #000000;
+     height: 380px;
+     padding: 15px;
+     margin: 15px;
+ }
+ 
+ #processor h2 {
+     font-weight: bolder;
+     font-size: 35px;
+     line-height: 35px;
+     width: 40px;
+     max-width: 100%;
+     color: rgb(255, 255, 255);
+     padding: 0px 0px 10px 50px;
+     margin-left: -50px;
+     margin-top: 30px;
+     margin-bottom: 1.5rem !important;
+ }
+ 
+ #processor p {
+     width: 335px;
+     max-width: 100%;
+     font-size: 19px;
+     color: rgb(255, 255, 255);
+     margin-left: 0px;
+     margin-right: 70px;
+     margin-top: -15px;
+ }
+ 
+ #processor span {
+     font-weight: bold;
+ }
+ 
+ 
+ 
+ 
+ 
+ #computer-case img {
+     max-width: 100%;
+     width: 100%;
+ }
+ #computer-case .content {
+     background: none;
+     display: flex;
+     background-color: #000000;
+     height: 550px;
+     padding: 15px;
+     margin: 15px;    
+ }
+ 
+ 
+ 
+ 
+ 
+ #heavy .content {
+     display: flex;
+     background-color: #060606;
+     padding: 10px 100px 0px 0px;
+     margin:  10px 10px -50px 30px;
+ }
+ .content h2 {
+     font-weight: bolder;
+     font-size: 35px;
+     line-height: 30px;
+     width: 400px;
+     color: #ffffff;
+     padding: 0px 0px 10px 50px;
+     margin-left: 20px;
+     margin-top: 110px;
+     margin-bottom: 1.5rem!important;
+ }
+ .content p {
+     width: 400px;
+     max-width: 100%;
+     font-size: 20px;
+     color: #ffffff;
+     margin-left: 70px;
+     margin-top: -15px;
+ }
+ 
+ 
+ 
+ 
+ 
+ #partners .container {
+     display: block;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     padding: 20px 290px 0px 290px;
+     background-color: #ffffff;
+ 
+ }
+ #partners h2 {
+     text-align: center;
+     line-height: 30px;
+     width: 390px;
+     max-width: 100%;
+     margin: 10px 0px 30px 150px;
+     font-size: 35px;
+     color: black;
+ }
+ 
+ 
+ #support {
+     margin: 0px 80px 0px 80px;
+     padding: 0px 0px 0px 0px;
+ }
+ #support .content {
+     display: flex;
+     background-color: #000000;
+     height: 380px;
+     padding: 40px;
+     margin: 15px;
+ }
+ #support .img-fluid {
+     width: 100% \9;
+ }
+ .img-fluid img {
+     height: auto;
+     margin: 0px 10px 60px 0px;
+ }
+ 
+ #support h2 {
+     font-weight: bolder;
+     font-size: 35px;
+     line-height: 35px;
+     width: 400px;
+     color: #ffffff;
+     padding: 0px 0px 10px 0px;
+     margin: 25px 100px 0px 50px;
+ }
+ #subtitle {
+     padding-bottom: 15px;
+     margin-bottom: 20px;
+ }
+ #support p {
+     width: 335px;
+     font-size: 19px;
+     color: #ffffff;
+     margin-left: 50px;
+     margin-right: 0px;
+     margin-top: -15px;
+ }
+ #support .mark-one {
+     font-weight: bolder;
+ }
+ #support .mark-two {
+     font-weight: bolder;
+ }
+ #support .mark-three {
+     font-weight: bolder;
+ }
+ 
+ 
+ 
 
 
 

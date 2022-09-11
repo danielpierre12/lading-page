@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    background: #000000f1;
+ }
+
+ .main-title {
+    font-size: 20px;
+    line-height: 10px;
+    font-family: 'Rubik', sans-serif ;
+    color: white;
+   
+ }
+
+ .daniela { 
+
+    background-image: url(../img/daniela-img.jpeg);
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 10% auto;
+
+    border-radius: 50%;
+
+ }
+
+ .daniel { 
+
+    background-image: url(../img/daniel-img.jpeg);
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+    border-radius: 50%;
+
+ }
+
