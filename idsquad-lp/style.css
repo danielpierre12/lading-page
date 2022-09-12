@@ -51,6 +51,7 @@ body {
     margin: 10% auto;
     display: block;
     margin-top: 10px;
+    margin-bottom: 10px;
 
     border-radius: 50%;
 
@@ -64,6 +65,8 @@ body {
    height: 200px;
    margin: 10% auto;
    display: block;
+   margin-top: 10px;
+   margin-bottom: 10px;
 
    border-radius: 50%;
 
