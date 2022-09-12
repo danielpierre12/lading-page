@@ -185,7 +185,6 @@
  }
  .content:hover {
     text-shadow: 30px 15px 30px rgb(136 0 0);
-    border-radius: 30px;
  }
  
  #video-card h2 {
@@ -321,7 +320,6 @@
  }
  #partners .container:hover {
     text-shadow: 50px 10px 30px rgb(136 0 0);
-    border-radius: 30px;
  }
  .figure {
     margin:-20px 113px 1rem;
