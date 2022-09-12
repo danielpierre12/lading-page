@@ -72,7 +72,9 @@
     max-height: 100%!important;
     background-size: cover;
  }
- 
+ img {
+    border-radius: 15px;
+ }
  #products .container {
      width: 100%;
      padding-right: 10px;
@@ -181,14 +183,18 @@
      margin-right: 25px;
 
  }
+ .content:hover {
+    text-shadow: 30px 15px 30px rgb(136 0 0);
+    border-radius: 30px;
+ }
  
  #video-card h2 {
      font-size: 40px;
      line-height: 40px;
-     width: 320px;
+     width: 377px;
      max-width: 100%;
      color: rgb(255, 255, 255);
-     margin-left: 130px;
+     margin-left: 80px;
      margin-top: 100px;
      margin-bottom: 1.5rem !important;
  }
@@ -201,14 +207,15 @@
      margin-left: 130px;
  }
  
+ 
  #video-card span {
      font-weight: 500;
  }
  
  #video-vga {
-     margin-top: -15px;
-     max-width: 500px;
-     margin-right: -14px;
+    margin-top: -1px;
+    max-width: 476px;
+    margin-right: 35px;
  }
  
  
@@ -278,6 +285,9 @@
      padding: 10px 100px 0px 0px;
      margin:  10px 10px -50px 30px;
  }
+ #heavy img {
+    padding: 0px 0px 0px 25px;
+ }
  .content h2 {
      font-weight: bolder;
      font-size: 35px;
@@ -309,10 +319,15 @@
      padding: 1px 0px 0px 137px;
      background-color: #ffffff00;
  }
+ #partners .container:hover {
+    text-shadow: 50px 10px 30px rgb(136 0 0);
+    border-radius: 30px;
+ }
  .figure {
     margin:-20px 113px 1rem;
  }
  #partners h2 {
+    font-weight: bolder;
      text-align: center;
      line-height: 30px;
      width: 390px;
