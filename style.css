@@ -76,8 +76,6 @@ img {
 
 #products .container {
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -211,10 +209,10 @@ img {
 
 #processor .content {
   display: flex;
-  background-color: #00000000;
+  background-color: #000000a8;
   height: 380px;
   padding: 40px;
-  margin: 15px;
+  margin: 21px;
 }
 
 #processor h2 {
@@ -252,7 +250,7 @@ img {
 #computer-case .content {
   background: none;
   display: flex;
-  background-color: #000000;
+  background-color: #000000a8;
   height: 550px;
   padding: 15px;
   margin: 15px;
@@ -260,7 +258,7 @@ img {
 
 #heavy .content {
   display: flex;
-  background-color: #06060600;
+  background-color: #000000a8;
   padding: 10px 100px 0px 0px;
   margin: 10px 10px -50px 30px;
 }
@@ -295,7 +293,7 @@ img {
   margin-top: 100px;
   margin-bottom: 100px;
   padding: 1px 0px 0px 137px;
-  background-color: #ffffff00;
+  background-color: #000000a8;
 }
 
 #partners .container:hover {
@@ -324,7 +322,7 @@ img {
 
 #support .content {
   display: flex;
-  background-color: #00000000;
+  background-color: #000000a8;
   height: 100%;
   padding-left: 74px;
   margin-top: 0px;

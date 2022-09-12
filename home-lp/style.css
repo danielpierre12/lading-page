@@ -2,104 +2,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina=Outline');
 
 body {
-    background-color: #000000f1;
-    color: white;
-    font-family:'Rubik', sans-serif;
-    margin: 0 auto;
-    padding: 15px;
-   
- }
-
- header {
-    display: flex ;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   
- }
-
- title {
-    flex-direction: column;
-    line-height: 10px;
-   
- }
-
- .neon {
-   font-family: 'Londrina Outline', cursive;
-   color: white;
-  
+  background-color: #000000f1;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  margin: 0 auto;
+  padding: 15px;
 }
 
- li {
-    display: inline-block;
-    margin: 20px;
-   
- }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
- a {
-    color: white;
- }
+title {
+  flex-direction: column;
+  line-height: 10px;
+}
 
- a:hover{
-    color: #7915fc;
-    transition: 00.3s all;
- }
+.neon {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
 
- #descubra-o-seu-btn{
-    border: 2px solid #7915fc;
-    padding: 10px;
-    border-radius: 15px;
- }
- h1 {
-    font-weight: 200;
-   
- }
+li {
+  display: inline-block;
+  margin: 20px;
+}
 
- main {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-   
- }
+a {
+  color: white;
+}
 
- h2 {
-    font-size: 50px;
-    line-height: 10px;
-    font-family: 'Rubik', sans-serif ;
-   
- }
+a:hover {
+  color: #7915fc;
+  transition: 00.3s all;
+}
 
- span {
-    color: #7915fc;
- }
+#descubra-o-seu-btn {
+  border: 2px solid #7915fc;
+  padding: 10px;
+  border-radius: 15px;
+}
+h1 {
+  font-weight: 200;
+}
 
- p {
-    line-height: 20px;
-    max-width: 500px;
-    font-family: 'Rubik', sans-serif ;
- }
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
 
- img {
-    width: 790px;
- }
+h2 {
+  font-size: 50px;
+  line-height: 10px;
+  font-family: 'Rubik', sans-serif;
+}
 
+span {
+  color: #7915fc;
+}
 
- button {
-    display: flex;
-    width: 34% ;
-    height: 50px;
-    padding: 15px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border: none;
-    font-size: 15px;
-    background-color: #7915fc;
-    color: white;
-    font-weight: bold;
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: 'Rubik', sans-serif;
+}
+
+img {
+  width: 790px;
+}
+
+button {
+  display: flex;
+  width: 34%;
+  height: 50px;
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  background-color: #7915fc;
+  color: white;
+  font-weight: bold;
 }
 
 button:hover {
   cursor: pointer;
-   box-shadow: 0 0 30px rgb(115, 2, 115), inset 0 0 15px rgb(115, 2, 115);
-   text-shadow: 0 0 30px rgb(115, 2, 115);
+  box-shadow: 0 0 30px rgb(115, 2, 115), inset 0 0 15px rgb(115, 2, 115);
+  text-shadow: 0 0 30px rgb(115, 2, 115);
 }
