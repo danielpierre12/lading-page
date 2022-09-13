@@ -1,2 +1,2 @@
-# lading-page
-<h1>Criação de lading page Razor</h1>
+# lading-page Razor
+<h2>Lading page TeuFuturoWeb com parceria Razor - Workstations e Desktops</h2>
